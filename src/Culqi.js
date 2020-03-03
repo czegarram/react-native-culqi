@@ -1,8 +1,8 @@
 import Config from './Config';
-import 'axios';
+import axios from 'axios';
+
 export default class Culqi {
   constructor() {
-    //super();
   }
   
   static createToken = (card = { 
@@ -12,7 +12,7 @@ export default class Culqi {
     expiration_year:'',
     email:'',
   },token)  => {
-    return axios('', {
+    return axios({
       method:'POST',
       url:Config.url_base_secure+"/tokens/",
       data:card,
