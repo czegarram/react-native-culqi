@@ -1,7 +1,6 @@
 # react-native-culqi
 
 ## Getting started
-`$ npm install axios@0.19.0 --save`
 
 `$ npm install https://github.com/czegarram/react-native-culqi --save`
 
