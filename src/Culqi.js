@@ -2,7 +2,7 @@ import Config from './Config';
 import 'axios';
 export default class Culqi {
   constructor() {
-    super();
+    //super();
   }
   
   static createToken = (card = { 
